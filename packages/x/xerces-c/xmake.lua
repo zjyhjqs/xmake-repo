@@ -69,7 +69,7 @@ package("xerces-c")
     on_load(function (package)
         if package:config("transcoder") == "system_transcoder" then
             if package:is_plat("linux") then
-                package:add("deps", "libiconv", {system = true})
+                -- package:add("deps", "libiconv", {system = true})
             elseif package:is_plat("windows") or package:is_plat("mingw") then
                 add_syslinks("advapi32")
             elseif package:is_plat("macos") then
