@@ -5,6 +5,7 @@ package("openssl3")
 
     add_urls("https://github.com/openssl/openssl/archive/refs/tags/openssl-$(version).zip")
 
+    add_versions("3.6.3", "e24124cb19d26f2045f53d3ee94871288136242931d001c71646c2403cfedee3")
     add_versions("3.6.2", "599a1053292f6aec83da0f98ecd48c587fdb3184f6d18a25ecc9a9ffbc024bb4")
     add_versions("3.6.1", "b5fb172237ed3b1b47a9f7f15d3a40f9e9563f59f544b7078780ee27279a3c0f")
     add_versions("3.6.0", "273d989d1157f0bd494054e1b799b6bdba39d4acaff6dfcb8db02656f1b454dd")
